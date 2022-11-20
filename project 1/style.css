@@ -1,0 +1,68 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 2rem auto ;
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 20907px; 
+
+}
+
+h1 {
+    color: hsla(0, 0%, 26%, 1);
+    font-family: inter;
+    font-size: 32px;
+    font-weight: bold;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-family: inter;
+    font-size: 22px;
+} 
+h3{
+    color: rgb(0, 0, 0);
+    font-family: inter;
+    font-size: 22px;
+}
+h4{
+    color: rgb(0, 0, 0);
+    font-family: inter;
+    font-size: 18px;
+}
+h5{
+    font-family: inter;
+    font-size: 24px;
+    font-weight: bold;
+}
+pre {
+/*     font-size: 18px ;
+    border: 1px solid hsla(0, 0%, 85%, 1);
+    border-radius: 10px;
+    opacity: 1;
+    color: DodgerBlue; */
+}
+p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-29) var(--unnamed-font-family-inter);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-858585);
+    text-align: left;
+    font: normal normal 300 18px/29px Inter;
+    letter-spacing: 0px;
+    color: hsla(0, 0%, 52%, 1);
+    opacity: 1;
+}
+ul{
+
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-29) var(--unnamed-font-family-inter);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-858585);
+    text-align: left;
+    font: normal normal 300 18px/29px Inter;
+    letter-spacing: 0px;
+    color: hsla(0, 0%, 52%, 1);
+    opacity: 1;
+}
