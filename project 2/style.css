@@ -32,6 +32,7 @@ h1{
     margin-right: 210px;
     color:black ;
     font-size: 30px;
+    display: inline-block;
     
 }
 .x{
@@ -129,23 +130,25 @@ div.paris{
     opacity: 1;
     box-shadow: inset 0px 25px 20px #67676729;
 }
-.back-arrow{
+.back{
     text-decoration: none;
     color: black;
-    padding-left: 590px;
-    position: absolute;
-    top: 130px;
     font-size: 30px;
-    text-decoration: none;
+    display: inline-block;
+    padding-left: 590px;
+    top: 105px;
+    position: absolute;
+    
 }
+
 .task{
     position: absolute;
     top: 130px;
     padding-left: 908px;
     text-decoration: none;
     color: black;
-
     font-size: 30px;
+    display: inline-block;
 }
 div.title{
     padding-left: 500px;
@@ -166,10 +169,10 @@ div.box{
     left:580px;
 
     background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 0px 20px #67676729;
-border: 1px solid #EDEDED;
-border-radius: 10px;
-opacity: 1;
+    box-shadow: 0px 0px 20px #67676729;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
 }
 #new-item{
     position: absolute;
