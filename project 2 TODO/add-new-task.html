@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-New-Task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="blur">
+    <h1>Task <span style="color:#00A5EC ;"> List</span></h1>
+    <div class="border">
+        <main>
+            <a class="add" href="./add-new-task.html" target="_self"> <img src="./plus.png" alt="plus" height="40px" width="40px"> Add New Tasks</a>
+        <div class="flex">
+            <div>
+                <a href="./paris-trip.html">
+                <h3>Trip to Paris</h3>
+                <hr>
+                <p> <img src="./checkbox.png" alt="check" width="24px" height="24px"> <del>Visit Church</del> </p>
+                <p> <img src="./checkbox emp .png" alt="need check" width="24px" height="24px"> Shopping</p>
+                </a>
+            </div>
+            <div>
+                <h3>My To Do List</h3>
+                <hr>
+                <p> <img src="./checkbox.png" alt="check" width="24px" height="24px"> <del>Visit Supermarket</del> </p>
+                <p> <img src="./checkbox emp .png" alt="need check" width="24px" height="24px"> But Vegetables</p>
+            </div>
+            <div>
+                <h3>Movies I Will Watch</h3>
+                <hr>
+                <p> <img src="./checkbox.png" alt="check" width="24px" height="24px"> <del>Starnger Things 4</del> </p>
+                <p> <img src="./checkbox emp .png" alt="need check" width="24px" height="24px"> Avatar: Way Of Water</p>
+            </div>
+            <div>
+                <h3>Daily Morning Routine For...</h3>
+                <hr>
+                <p> <img src="./checkbox.png" alt="check" width="24px" height="24px"> <del>Wake up at 6</del> </p>
+                <p> <img src="./checkbox emp .png" alt="need check" width="24px" height="24px"> Sleep at 10</p>
+            </div>
+            <div>
+                <h3>Books To Read</h3>
+                <hr>
+                <p> <img src="./checkbox.png" alt="check" width="24px" height="24px"> <del>Harry Porter</del> </p>
+                <p> <img src="./checkbox emp .png" alt="need check" width="24px" height="24px"> Dance Of The Dragons</p>
+            </div>
+        </div>
+        </div>
+    </div>    
+    
+    <div class="container">
+        <h2>Add New Task <a class="x" href="./task-list.html"> X</a> </h2>
+        <hr>
+        <div id="newtask"><input style="width:560px; height:50px;"  type="text" placeholder="Learn C++ "  ></div>
+       <!--  <div><button type="button" id="push"> + Add Task</button></div> -->
+        <button type="button" id="push" onclick="alert('One Item is Added')">+ Add Task</button>
+ 
+    </div>
+
+    <div class="next">
+        <a href="./task-list.html"> <img class="home" src="./house.png" alt="home" width="30px" height="30px"> </a></div>
+    
+    <div class="nextpage"> <a href="./task-list.html" class="previous round">&#8249; </a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="./paris-trip.html" class="next round">&#8250;</a></div>
+</body>
+</html>
