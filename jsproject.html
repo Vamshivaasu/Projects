@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span id="hrs"></span>
+    <span id="mins"></span>
+    <span id="secs "></span>
+
+
+    <script>
+        function ClockStart(){
+            let date = new Date();
+            let hours = date.getHours();
+            let minutes =date.getMinutes();
+            let seconds= date.getSeconds();
+
+            console.log(hours, minutes, seconds);
+
+            let hrs=document.getElementById("hrs");
+            hrs.innerText = hours;
+            let mins = document.getElementById("mins");
+            mins.innerText = minutes;
+            let secs=document.getElementById("secs");
+            secs.innerText = seconds;
+
+
+
+            if(hours > 12){
+                /* hours = hours - 12; */
+                let am = document.getElementById('am');
+                am.innerText = "PM"
+
+            }
+            else{
+                let am= document.getElementById('am');
+                am.innerText = "AM"
+            }
+
+
+        }
+        setInterval(()=>{
+            ClockStart();
+
+        }, 1000)
+    </script>
+</body>
+</html>
