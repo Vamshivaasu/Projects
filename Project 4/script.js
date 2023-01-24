@@ -86,6 +86,14 @@ function getOption(){
 
     var idExist = document.getElementById("detail-box")
     if(idExist){
-        idExist.innerHTML =  "wake up time : ${text1}  Lunch Time : ${text2}  Nap Time : ${text3}  Sleep Time : ${text4}";
+        idExist.innerHTML =  `Wakeup-Time : ${text1} <br>  Lunch-Time : ${text2} <br>  Nap-Time : ${text3} <br>  Sleep-Time : ${text4}`;
     }
 }
+
+
+/* 
+function getOption() {
+    selectElement = document.querySelector('#time1');
+    output = selectElement.value;
+    document.querySelector('#detail-box').textContent = output;
+} */
