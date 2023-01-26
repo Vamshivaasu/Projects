@@ -197,7 +197,7 @@ z-index: 3;
 #t{
     position: absolute;
     font-size: 40px;
-    top: 20px;
+    top: 38px;
     left: 10px;
     width: 80px;
     height: 90px;
@@ -217,6 +217,9 @@ z-index: 3;
     opacity: 1;
     background-color: #F6E2FF;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 #minutes{
     font-size: 40px;
@@ -229,6 +232,8 @@ z-index: 3;
     opacity: 1;
     background-color: #F6E2FF;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #seconds{
     font-size: 40px;
@@ -241,6 +246,8 @@ z-index: 3;
     background-color: #F6E2FF;
     opacity: 1;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #session{
     position: absolute;
@@ -254,6 +261,8 @@ z-index: 3;
     opacity: 1;
     border-radius: 10px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #colon{
     font-size: 40px;
