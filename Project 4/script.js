@@ -21,7 +21,7 @@ function displayTime(){
         session.innerHTML= " AM "
     }
 
-   /*  if(hrs>12){
+  /*   if(hrs>12){
         hrs = hrs - 12;
     } */
 
@@ -60,14 +60,7 @@ function displayTime(){
 }
 setInterval(displayTime,10);
 
-/* function upadate(k){
-    if(k<10){
-        return "0" + k;
-    }else{
-        return k;
-    }
-}
-displayTime(); */
+
 
 
 function getOption(){
