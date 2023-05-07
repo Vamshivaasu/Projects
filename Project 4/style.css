@@ -1,364 +1,107 @@
-.background{
-    background-color:#3D087B ;
-    border: 1px solid black;
-    margin: auto;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 849px;
-/* UI Properties */
-    background: #3D087B 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.left-box{
-    position: absolute;
-    top: 34px;
-    left: 324px;
-    width: 204px;
-    height: 77px;
-/* UI Properties */
-    background: transparent url(./clock_logo.png) 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
-.rectangle{
-    position: absolute;
-    top: 149px;
-    left: 324px;
-    width: 566px;
-    height: 363px;
-/* UI Properties */
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #EDEDED;
-    border-radius: 10px;
-    opacity: 1;
-}
-#greatings{
-    position: absolute;
-    top: 527px;
-    left: 324px;
-    width: 566px;
-    height: 77px;
-    text-align: center;
-    font-size: 30px;
-    color: black;
-    border: 1px solid #EDEDED;
-    border-radius: 10px;
-    background-color: white;
-}
-#set-alarm{
-    position: absolute;
-    top: 624px;
-    left: 324px;
-    width: 299px;
-    height: 50px;
-    font-size: 25px;
-    text-align: center;
-    color: white;
-/* UI Properties */
-    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
-    border-radius: 10px;
-    opacity: 1;
-}
-#detail-box{
-    position: absolute;
-    color: #F25CFE;
-    text-align: left;
-    top: 615px;
-    left: 637px;
-    width: 253px;
-    height: 117px;
-    background-color: white;
-    border: 1px solid #EDEDED;
-    border-radius: 10px;
-    font-size: 20px;
-}
-
-.time{
-    position: absolute;
-    top: 42px;
-    left: 706px;
-    width: 536px;
-    height: 130px;
-/* UI Properties */
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #EDEDED;
-    border-radius: 10px;
-    opacity: 1;
-}
-#grab{
-    position: absolute;
-    top: 212px;
-    left: 1006px;
-    width: 536px;
-    height: 118px;
-    color: #8E53F0;
-    text-align: center;
-    font-size: 30px;
-    border: 1px solid #EDEDED;
-    border-radius: 10px;
-    background-color: white;
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
   
-}
-#component{
-    position: absolute;
-    top: 345px;
-    left: 1006px;
-    width: 536px;
-    height: 341px;
-    background-color: white;
-    border-radius: 10px;
-    opacity: 1;
-}
-
-.wake-up-time{
-    top: 169px;
-left: 149px;
-width: 34px;
-height: 34px;
-background: transparent url('img/wake_up.png') 0% 0% no-repeat padding-box;
-opacity: 1;
-}
-
-
-/* SETTING TIMES */
-#pic{
-    width: 40px;
-    height: 40px;
-}
-#live-clock{
-    font-size: 25px;
-    position: absolute;
-    top: 42px;
-    left: 1006px;
-    width: 536px;
-    height: 130px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #EDEDED;
-    border-radius: 10px;
-    opacity: 1;
-    z-index: 1;
-
-}
-.live-c{
-    position: absolute;
-    top: 55px;
-left: 1066px;
-width: 416px;
-height: 130px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 10px;
-opacity: 0.71;
-
-}
-.live-c2{
-    position: absolute;
-    top: 67px;
-left: 1085px;
-width: 379px;
-height: 130px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 10px;
-opacity: 0.22;
-z-index: 3;
-}
-#time1 {
-    font-size: 20px;
-    padding: 20px 10px;
-    width: 250px; 
-    margin-left: 85px;
-    margin-top: 20px;
-}
-#time2 {
-    font-size: 20px;
-    padding: 20px 10px;
-    width: 250px; 
-    margin-left: 110px;
-    margin-top: 20px;
-}
-#time3 {
-    font-size: 20px;
-    padding: 20px 10px;
-    width: 250px; 
-    margin-left: 130px;
-    margin-top: 20px;
-}
-#time4 {
-    font-size: 20px;
-    padding: 20px 10px;
-    width: 250px; 
-    margin-left: 110px;
-    margin-top: 20px;
-}
-
-#t{
-    position: absolute;
-    font-size: 40px;
-    top: 38px;
-    left: 10px;
-    width: 80px;
-    height: 90px;
-    border-radius: 10px;
-    opacity: 1;
-    color: black;
+  h1 {
     text-align: center;
-}
-#hours{
-    font-size: 40px;
-    top: 20px;
-    position: absolute;
-    left: 110px;
-    width: 80px;
-    height: 90px;
-    border-radius: 10px;
-    opacity: 1;
-    background-color: #F6E2FF;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-#minutes{
-    font-size: 40px;
-    top: 20px;
-    position: absolute ;
-    left: 200px;
-    width: 80px;
-    height: 90px;
-    border-radius: 10px;
-    opacity: 1;
-    background-color: #F6E2FF;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-#seconds{
-    font-size: 40px;
-    top: 20px;
-    position: absolute;
-    left: 290px;
-    width: 80px;
-    height: 90px;
-    border-radius: 10px;
-    background-color: #F6E2FF;
-    opacity: 1;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-#session{
-    position: absolute;
-    font-size: 40px;
-    top: 20px;
-    left: 380px;
-    width: 80px;
-    height: 90px;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  form input[type="text"] {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px 0 0 5px;
+    border: none;
+  }
+  
+  form button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
     color: white;
-    background-color:#FC5EFF;
-    opacity: 1;
-    border-radius: 10px;
-    text-align: center;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li.task {
+    margin: 1rem 0;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  
+  li.task .task-name {
+    font-weight: bold;
+  }
+  
+  li.task .delete-task {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+  li.task .delete-task:hover {
+    background-color: #d32f2f;
+  }
+  
+  li.task.completed {
+    background-color: #d9ead3;
+  }
+  
+  li.topic {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  li.topic label {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  
+  li.topic input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  li.topic .delete-topic {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
     margin-left: auto;
-    margin-right: auto;
-}
-#colon{
-    font-size: 40px;
-    top: 36px;
-    position: absolute;
-    left: 189px;
-    width: 80px;
-    height: 90px;
-
-}
-#colon2{
-    font-size: 40px;
-    top: 36px;
-    position: absolute;
-    left: 279px;
-    width: 80px;
-    height: 90px;
-
-}
+    cursor: pointer;
+  }
+  
+  li.topic.completed label {
+    text-decoration: line-through;
+    color: gray;
+  }
 
 
-@media only screen and (max-width: 570px) {
-    .background{
-        background-color:#3D087B ;
-        border: 1px solid black;
-        margin: auto;
-        position: relative;
-        top: 0px;
-        left: 0px;
-        width: 570px;
-        height:1600px;
-        background: #3D087B 0% 0% no-repeat padding-box;
-        opacity: 1;
-
-    }
-    .left-box{
-        position: absolute;
-        left: 150px;
-        top: 10px;
-
-    }
-    .rectangle{
-     position: absolute;
-     top: 100px;
-     left: 0px;
-    }
-
-
-    #greatings{
-     position: absolute;
-     left: 0px;
-     top: 500px;
-    }
-    #set-alarm{
-        position: absolute;
-        left: 140px;
-        top: 600px;
-
-    }
-    #detail-box{
-        position: absolute;
-        left: 163px;
-        top: 671px;
-    }
-    #grab{
-        position:absolute;
-        left: 13px;
-        top: 1020px;
-    }
-
+  
+  .delete-task {
+    font-size: 12px;
+    border-radius: 50%;
+  }
     
-    .live-c{
-        position: absolute;
-        left: 73px;
-        top: 844px;
-       
-    }
-    .live-c2{
-        position: absolute;
-        left: 90px;
-        top: 858px;
-        z-index: 3;
-    }
-    #live-clock{
-        position: absolute;
-        left: 17px;
-        top: 827px;
-        z-index:1;
-    }
-   
-    #component{
-        position: absolute;
-        left: 15px;
-        top: 1171px;
-
-    }
-}
-
-
